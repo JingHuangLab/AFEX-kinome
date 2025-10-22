@@ -1,0 +1,3 @@
+[submodule "Kincore_standalone2"]
+	path = Kincore_standalone2
+	url = git@github.com:w597507666/Kincore-standalone2.git
