@@ -27,7 +27,7 @@ output_dir="/home/usr/projects/kinase/AFEX/results_lr${learning_rate}_plddt${pld
 
 # ----------- Execution -----------
 # Run the main Python optimization script with specified parameters
-python "$work_path/afexplore_optim_active5_type2.py" \
+python "$work_path/afexplore_optim_active5.py" \
        --rawfeat_dir "$rawfeat_path" \
        --output_dir "$output_dir" \
        --afparam_dir "$afparam_dir" \
