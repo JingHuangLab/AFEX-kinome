@@ -13,7 +13,7 @@ print(script_path)
 script_dir = os.path.dirname(script_path)
 os.chdir(script_dir)
 print("Current working directory:", os.getcwd())
-sys.path.insert(0, str(script_dir))  # 插入路径到最前面
+sys.path.insert(0, str(script_dir))
 import numpy as np
 from typing import Tuple
 import jax, jax.numpy as jnp, optax
