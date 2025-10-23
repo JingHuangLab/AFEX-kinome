@@ -7,13 +7,13 @@
 # should have sudo apt-get install hmmer
 
 import os
-print("Current working directory:", os.getcwd())
+import sys
 script_path = os.path.abspath(__file__)
 print(script_path)
-os.chdir(os.path.dirname(script_path))
-parent_dir = os.path.dirname(os.path.dirname(script_path))
-print(parent_dir)
-import sys
+script_dir = os.path.dirname(script_path)
+os.chdir(script_dir)
+print("Current working directory:", os.getcwd())
+sys.path.insert(0, str(script_dir))  # 插入路径到最前面
 import numpy as np
 from typing import Tuple
 import jax, jax.numpy as jnp, optax
