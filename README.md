@@ -4,7 +4,7 @@ See [AFEXplorer](https://github.com/JingHuangLab/AFEXplorer) for more info. Note
 
 ## Benchmark Data Download
 
-Download the benchmark dataset used for AFEX-kinome from [GitHub Releases](https://github.com/JingHuangLab/AFEX-kinome/releases):
+Download the benchmark dataset used for AFEX-kinome from [GitHub Releases](https://github.com/JingHuangLab/AFEX-kinome/releases).
 
 ## Additional notes
 
